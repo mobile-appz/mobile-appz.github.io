@@ -4,14 +4,14 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="">
-    <meta name="author" content="">
-  <!--  <link rel="shortcut icon" href="../../docs-assets/ico/favicon.png"> -->
+    <meta name="description" content="Mobile Application Design and Development">
+    <meta name="author" content="Mobile Appz">
+    <link rel="shortcut icon" href="favicon.png">
 
     <title>Mobile Appz Application Design and Development</title>
 
     <!-- Bootstrap core CSS -->
-    <link rel="stylesheet" href="//netdna.bootstrapcdn.com/bootstrap/3.0.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="styles.css">
 
     <!-- Custom styles for this template -->
     <link href="starter-template.css" rel="stylesheet">
@@ -26,7 +26,7 @@
     <![endif]-->
   </head>
 
-  <body>
+    <body>
 
     <div class="navbar navbar-inverse navbar-fixed-top" role="navigation">
       <div class="container">
@@ -37,12 +37,37 @@
             <span class="icon-bar"></span>
             <span class="icon-bar"></span>
           </button>
-          <a class="navbar-brand" href="index.html">Mobile Appz</a>
+          <a class="navbar-brand" href="index.html"><img src="mobile-appz-white1.png"/></a>
         </div>
         <div class="collapse navbar-collapse">
           <ul class="nav navbar-nav">
-            <li class="active"><a href="index.html">Home</a></li>
-            <li><a href="about.html">About</a></li>
+            <li><a href="index.html">Home</a></li>
+            <li class="dropdown">
+              <a href="process.html" class="dropdown-toggle" data-toggle="dropdown">What I do<b class="caret"></b></a>
+              <ul class="dropdown-menu">
+                <li><a href="apps.html">Mobile Apps</a></li>
+                <li><a href="websites.html">Websites</a></li>
+                <li><a href="ui.html">UI Design</a></li>
+              </ul>
+            </li>
+            <li class="active"><a href="about.html">About</a></li>
+            <li><a href="work.html">Work</a></li>
+            <li class="dropdown">
+
+              <a href="process.html" class="dropdown-toggle" data-toggle="dropdown">Process <b class="caret"></b></a>
+              <ul class="dropdown-menu">
+                <li><a href="process.html">Design Process</a></li>
+                <li class="divider"></li>
+                <li><a href="process.html#define">Define Brief</a></li>
+                <li><a href="process.html#research">Conduct Research</a></li>
+                <li><a href="process.html#ideate">Ideate Solutions</a></li>
+                <li><a href="process.html#prototype">Prototype</a></li>
+                <li><a href="process.html#implementation">Implementation</a></li>
+                <li><a href="process.html#evaluation">Evaluation</a></li>
+              </ul>
+            </li>
+            <li><a href="faqs.html">FAQs</a></li>
+            <li><a href="contact.html">Contact</a></li>
             </ul>
         </div><!--/.nav-collapse -->
       </div>
@@ -50,19 +75,58 @@
 
     <div class="container">
 
-      <div class="starter-template">
+      <div class="starter-template" style="text-align:center">
+      
         <h1>About Mobile Appz</h1>
-        <p class="lead">Android, Iphone, Ipad, Tablet and Web Development<br/>Technologies: HTML 5, CSS, Javascript, Java and PHP<br/>
-        User Interface Design<br/>Front End Web Design and Development</p>
+        <p class="lead">Android, Iphone, Ipad, Tablet and Web Development<br/>
+          Technologies: HTML 5, CSS, Javascript, Java and PHP<br/>
+          User Interface Design<br/>
+          Front End Web Design and Development</p>
+        <p>
+          Based near Bristol, UK, Mobile Appz was founded in 2013.
+        </p>
+        <p>
+          I provide high quality digital design and development services, and have over 10 years experience in digital design.
+        </p>
+        <p>
+          I undertake everything from a small 5 screen app or mobile optimised website to fully featured custom made native mobile applications with web and database connectivity.
+        </p>
+        <p> 
+          The recent growth of smartphone and tablet based internet access requires websites to be optimised for smaller screens and touch screen based interfaces.
+        </p>
+        <p>  
+          Using a mobile device is an inherently different experience from using a PC, therefore requires an appropriate design solution. This will generally provide a superior way to deliver the content. Alternatively, a well designed mobile application can offer a superior user experience which takes advantage of mobile specific features such as location awareness, GPS and a touch screen interface.
+        </p>  
+        <br/><br/>
+
+
+
       </div>
+
 
     </div><!-- /.container -->
 
-
-    <!-- Bootstrap core JavaScript
-    ================================================== -->
-    <!-- Placed at the end of the document so the pages load faster -->
-    <script src="https://code.jquery.com/jquery-1.10.2.min.js"></script>
-  <script src="//netdna.bootstrapcdn.com/bootstrap/3.0.2/js/bootstrap.min.js"></script>
+      <div class="footer" style="text-align:center">
+        <div class="container">
+          <div class="row">
+              <div class="col-md-4">
+                  <p><strong>Twitter</strong><br/></p>
+                  <a class="twitter-timeline" data-dnt="true" href="https://twitter.com/mobile_appz" data-theme="dark" data-widget-id="412374252818415616" data-chrome="nofooter noheader noborders noscrollbar transparent" data-tweet-limit="1">Tweets by @mobile_appz</a>
+                  <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+"://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
+              </div>
+              <div class="col-md-4">
+                <p><strong>Legal</strong><br/></p><a href="terms.html">Terms and Conditions</a><br/><a href="privacy.html">Privacy Statement</a>
+                <br/><a href="copyright.html">Copyright Notice</a><br/><a href="cookies.html">Cookies Policy</a>
+              </div>
+              <div class="col-md-4">
+                <p><strong>Connect</strong><br/></p><a href="mailto:info@mobileappz.co.uk"><img src="contacticon.png"/>info@mobileappz.co.uk</a><br/>
+                <a href="https://twitter.com/mobile_appz"><img src="twitter.png">@mobile_appz</a>
+              </div>
+          </div>
+        <p style="color: #898989">&copy; Mobile Appz 2013</p><p style="color: #898989">Mobile Appz uses cookies to analyse the use of this website. In using this website you consent with the use of cookies if not please disable them in your browser.</p>
+      </div>
+    </div>
+    <script src="jquery-1.10.2.min.js"></script>
+  <script src="bootstrap.min.js"></script>
 </body>
 </html>
