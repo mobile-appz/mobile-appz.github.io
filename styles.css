@@ -346,6 +346,9 @@ a:focus {
 
 img {
   vertical-align: middle;
+  max-width: 100%;
+  height: auto;
+
 }
 
 .img-responsive {
@@ -4350,7 +4353,8 @@ textarea.input-group-sm > .input-group-btn > .btn {
 .navbar {
   position: relative;
   min-height: 50px;
-  margin-bottom: 20px;
+  margin-bottom: 0px;
+  /* margin-bottom: 20px; */
   border: 1px solid transparent;
 }
 
@@ -6407,7 +6411,10 @@ button.close {
 
 .carousel-inner {
   position: relative;
+  min-width: 1200px;
+  max-width: 1200px;
   width: 100%;
+
   overflow: hidden;
 }
 
